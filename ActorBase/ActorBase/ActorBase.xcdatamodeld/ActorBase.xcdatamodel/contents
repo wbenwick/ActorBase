@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13B42" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Actors">
+        <attribute name="actor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="character" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="show" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="Shows" syncable="YES">
+        <attribute name="show" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Actors" positionX="261" positionY="189" width="128" height="105"/>
+        <element name="Shows" positionX="270" positionY="225" width="128" height="75"/>
+    </elements>
+</model>
